@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calendar</title>
+  <link rel="stylesheet" href="calender.css">
+</head>
+<body>
+  <div class="calendar-container">
+    
+    <!-- Header -->
+    <header>
+      <h1>Calendar 
+        <img src="img18.svg"></h1>
+      <p id="current-month"></p>
+    </header>
+
+    <!-- Calendar Grid -->
+    <div class="calendar">
+        <div class="days-of-week">
+          <span>Sun</span>
+          <span>Mon</span>
+          <span>Tue</span>
+          <span>Wed</span>
+          <span>Thu</span>
+          <span>Fri</span>
+          <span>Sat</span>
+        </div>
+        <div id="dates" class="dates"></div>
+      </div>
+  
+      <!-- Task Section -->
+      <div class="tasks">
+        <h2>Tasks for <span id="selected-date">Today</span></h2>
+        <ul id="task-list">
+            <li>No tasks for this day.</li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="calender.js"></script>
+</body>
+</html>

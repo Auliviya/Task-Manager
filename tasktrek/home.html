@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List Home</title>
+  <link rel="stylesheet" href="home.css">
+</head>
+<body>
+  
+  <div class="container">
+    <div class="image"> 
+      <img src="img4.svg">
+    </div>
+    <!-- Greeting Section -->
+    <header>
+      <h1>Hi, <span id="username">John</span>!</h1>
+      <p id="quote">"The secret of getting ahead is getting started."</p>
+    </header>
+
+    <!-- Task Completion Section -->
+    <section class="progress-section">
+      <div class="progress-circle">
+        <span id="progress-percentage">75%</span>
+      </div>
+      <p>Task Completion Progress</p>
+    </section>
+
+    <!-- Add Task Section -->
+    <!-- <section class="add-task-section">
+      <h2>Add a Task</h2>
+      <form id="task-form">
+        <input type="text" id="task-input" placeholder="Enter your task..." required>
+        <button type="submit">+</button>
+      </form>
+    </section>
+
+     Task List Section 
+    <section class="task-list">
+      <h2>Your Tasks</h2>
+      <ul id="task-list">
+        <li><span>Buy groceries</span><button class="complete-btn">✔</button></li>
+        <li><span>Finish project</span><button class="complete-btn">✔</button></li>
+      </ul>
+    </section> -->
+
+    <!-- Footer Navigation -->
+    <div class="cards-container">
+      <div class="card">
+        <h2>Work</h2>
+        <ul id="work-tasks"></ul>
+        <input type="text" placeholder="Add task" onkeypress="addTask(event, 'work-tasks')">
+      </div>
+      <div class="card">
+        <h2>Personal</h2>
+        <ul id="personal-tasks"></ul>
+        <input type="text" placeholder="Add task" onkeypress="addTask(event, 'personal-tasks')">
+      </div>
+      <div class="card">
+        <h2>Project</h2>
+        <ul id="project-tasks"></ul>
+        <input type="text" placeholder="Add task" onkeypress="addTask(event, 'project-tasks')">
+      </div>
+      <div class="card">
+        <h2>Market</h2>
+        <ul id="market-tasks"></ul>
+      <input type="text" placeholder="Add task" onkeypress="addTask(event, 'market-tasks')">
+    </div>
+    <div class="card">
+      <h2>Studies</h2>
+      <ul id="studies-tasks"></ul>
+      <input type="text" placeholder="Add task" onkeypress="addTask(event, 'studies-tasks')">
+    </div>
+    <div class="card">
+      <h2>Family</h2>
+      <ul id="family-tasks"></ul>
+      <input type="text" placeholder="Add task" onkeypress="addTask(event, 'family-tasks')">
+    </div>
+    
+  </div>
+  <script src="home.js"></script>
+</body>
+</html>
+    <footer>
+      <nav>
+        <a href="#" class="nav-item">🏠 Home</a>
+        <a href="#" class="nav-item">📅 Calendar</a>
+        <a href="#" class="nav-item">📊 Insights</a>
+        <a href="#" class="nav-item">👤 Profile</a>
+      </nav>
+    </footer>
+  </div>
+  <script src="home.js"></script>
+</body>
+</html>

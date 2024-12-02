@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login / Create Account</title>
+  <link rel="stylesheet" href="LoginOrSignup.css">
+</head>
+<body>
+  <div class="card">
+    <img src="img20.svg" alt="Card Image" class="card-image">
+  </div>
+  
+  <div class="container">
+    <h1>Welcome Back!</h1>
+    <p>Log in or create an account to continue.</p>
+    <div class="form-container">
+      <form id="login-form">
+        <input type="text" placeholder="Username" id="username" required>
+        <input type="password" placeholder="Password" id="password" required>
+        <button type="submit" id="login-btn">Log In</button>
+        <button type="submit" id="google-btn">Continue with Google
+          <img src="">
+        </button>
+        
+      </form>
+      <p>Don't have an account? <a href="#" id="create-account">Sign Up</a></p>
+    </div>
+    
+  </div>
+  
+  <script src="LoginOrSignup.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-auth-compat.js"></script>
+</body>
+</html>

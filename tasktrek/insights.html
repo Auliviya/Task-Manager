@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Progress Insights</title>
+  <link rel="stylesheet" href="insights.css">
+</head>
+<body>
+  <div class="insights-container">
+    <!-- Header -->
+    <header>
+      <h1>Progress Insights</h1>
+      <p>Track your task progress and achievements</p>
+    </header>
+<!-- Progress Stats -->
+<div class="progress-section">
+    <div class="progress-card">
+      <div class="progress-circle" id="progress-today">
+        <span class="percent" id="today-percent">75%</span>
+      </div>
+      <p>Today's Progress</p>
+    </div>
+
+    <div class="progress-card">
+      <div class="progress-circle" id="progress-week">
+        <span class="percent" id="week-percent">60%</span>
+      </div>
+      <p>This Week</p>
+    </div>
+
+    <div class="progress-card">
+      <div class="progress-circle" id="progress-overall">
+        <span class="percent" id="overall-percent">85%</span>
+      </div>
+      <p>Overall Progress</p>
+    </div>
+  </div>
+
+  <!-- Task Breakdown -->
+  <div class="task-breakdown">
+    <h2>Task Breakdown</h2>
+    <ul>
+        <li><span class="label">Completed:</span> <span class="value" id="completed-tasks">40</span></li>
+        <li><span class="label">In Progress:</span> <span class="value" id="inprogress-tasks">10</span></li>
+        <li><span class="label">Pending:</span> <span class="value" id="pending-tasks">5</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="insights.js"></script>
+</body>
+</html>

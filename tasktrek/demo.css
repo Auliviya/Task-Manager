@@ -1,0 +1,53 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+  }
+  
+  h1, p {
+    text-align: center;
+  }
+  
+  .cta-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cta-btn:hover {
+    background-color: #ddd;
+  }
+  
+  /* Parallax Effect */
+  .parallax {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .parallax:first-of-type {
+    background-image: url('https://via.placeholder.com/1500x1000?text=ToDo+Background+1');
+  }
+  
+  .parallax-2 {
+    background-image: url('https://via.placeholder.com/1500x1000?text=ToDo+Background+2');
+  }
+  
+  /* Content Section */
+  .content {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: black;
+  }
+  

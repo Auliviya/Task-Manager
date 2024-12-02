@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1e1e2c;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .profile-container {
+    width: 90%;
+    max-width: 400px;
+    background-color: #2c2c38;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .profile-header {
+    text-align: center;
+  }
+  
+  .profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .username {
+    margin: 5px 0 20px;
+    color: #c2c2c2;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .stat-item {
+    background-color: #3a3a46;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    flex: 1;
+    margin: 0 5px;
+  }
+  
+  .stat-item:first-child {
+    margin-left: 0;
+  }
+  
+  .stat-item:last-child {
+    margin-right: 0;
+  }
+  
+  .settings-section,
+  .account-section,
+  .uptodo-section {
+    margin-bottom: 20px;
+  }
+  
+  h4 {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #c2c2c2;
+  }
+  
+  .settings-item {
+    padding: 10px 0;
+    border-bottom: 1px solid #3a3a46;
+    cursor: pointer;
+  }
+  
+  .settings-item:last-child {
+    border-bottom: none;
+  }
+  
+  .settings-item:hover {
+    color: #9d47b0;
+  }
+  
+  .logout {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  button {
+    background-color: #7e207c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #e200e6;
+    transform: scale(1.05);
+  box-shadow: 0px 0px 30px #9348e3;
+  
+  }
+  

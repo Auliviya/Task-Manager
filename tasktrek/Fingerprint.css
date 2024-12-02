@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .scanner {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    border: 4px solid #7f00ff;
+    border-radius: 50%;
+  position: relative;
+  animation: glow 2s infinite alternate;
+  cursor: pointer;
+}
+
+.fingerprint-icon {
+  width: 60px;
+  height: 60px;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0) 70%);
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#status-message {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #aaa;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes glow {
+    from {
+      box-shadow: 0 0 10px #7f00ff, 0 0 20px #7f00ff;
+    }
+    to {
+      box-shadow: 0 0 20px #ff007f, 0 0 40px #ff007f;
+    }
+  }  

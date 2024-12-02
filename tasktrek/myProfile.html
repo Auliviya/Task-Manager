@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Profile</title>
+  <link rel="stylesheet" href="myProfile.css">
+</head>
+<body>
+  <div class="profile-container">
+    <img src="https://via.placeholder.com/120" alt="Profile Picture">
+    <h1>John Doe</h1>
+    <p>john.doe@example.com</p>
+    <div class="card">
+      <ul>
+        <li onclick="showAlert('Task Completion History')">📊 My Task Completion History</li>
+        <li onclick="showAlert('Journals')">📔 My Journals</li>
+        <li onclick="showAlert('Streaks')">🔥 My Streaks</li>
+        <li onclick="showAlert('Incoming Scheduled Tasks')">📅 My Incoming Scheduled Tasks</li>
+      </ul>
+    </div>
+  </div>
+  <script src="myProfile.js"></script>
+</body>
+</html>
